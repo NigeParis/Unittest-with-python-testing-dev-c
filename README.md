@@ -127,3 +127,115 @@ OK
 | Test with unittest | Automated testing of C functions |
 
 This setup allows you to test C code easily and cleanly using Python’s testing tools.
+
+</br>
+
+# Testing a C Program Using Python `unittest` and `subprocess`
+
+This project demonstrates how to test a **C executable program** using Python.  
+Instead of calling C functions directly, the C program is compiled into a normal executable, and Python uses the `subprocess` module to run it and capture its output.  
+Python’s `unittest` framework is then used to verify the program’s behavior.
+
+---
+
+## 1. Writing the C Program
+
+Example C file:
+
+```c
+// program.c
+#include <stdio.h>
+
+int main() {
+    printf("Hello World\n");
+    return 0;
+}
+```
+
+---
+
+## 2. Compiling the C Program
+
+Compile the C file into an executable:
+
+```bash
+gcc program.c -o program
+```
+
+This produces:
+
+```
+program
+```
+
+Python will run this executable directly.
+
+---
+
+## 3. Testing the Program Using Python `subprocess`
+
+Python uses the `subprocess` module to:
+
+- run the compiled C program  
+- capture its output (`stdout`)  
+- check its exit code  
+- compare results using `unittest`  
+
+Example test file:
+
+```python
+import unittest
+import subprocess
+
+class TestProgram(unittest.TestCase):
+
+    def test_output(self):
+        result = subprocess.run(
+            ["./program"],
+            capture_output=True,
+            text=True
+        )
+
+        # Check printed output
+        self.assertEqual(result.stdout, "Hello World\n")
+
+        # Check exit code
+        self.assertEqual(result.returncode, 0)
+
+if __name__ == "__main__":
+    unittest.main()
+```
+
+---
+
+## 4. Running the Tests
+
+Run the Python test file:
+
+```bash
+python3 test_program.py
+```
+
+Expected output:
+
+```
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+```
+
+---
+
+## Summary
+
+| Step | Description |
+|------|-------------|
+| Write C program | Implement logic in `program.c` |
+| Compile to executable | `gcc program.c -o program` |
+| Use subprocess | Run program and capture output |
+| Test with unittest | Validate output and exit code |
+
+This setup allows you to test full C programs (not just functions) using Python’s testing tools.
+
+
