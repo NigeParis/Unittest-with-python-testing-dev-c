@@ -1,4 +1,4 @@
-# Testing a C Program Using Python `unittest` and `ctypes`
+# Testing a C Program Using Python `unittest` and `ctypes` - The Basics
 
 This project demonstrates how to test C functions using Python.  
 The C code is compiled into a **shared library** (`.so`), which Python loads using `ctypes.CDLL`.  
@@ -28,7 +28,7 @@ float sub(float a, float b) {
 Compile the C file into a `.so` library:
 
 ```bash
-gcc -shared -fPIC -o libfunctions.so functions.c
+cc -shared -fPIC -o libfunctions.so functions.c
 ```
 
 This produces:
@@ -159,7 +159,7 @@ int main() {
 Compile the C file into an executable:
 
 ```bash
-gcc program.c -o program
+cc program.c -o program
 ```
 
 This produces:
