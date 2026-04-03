@@ -15,10 +15,10 @@ The C compiler identification is Clang, found in "/home/nrobinso/Documents/unity
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/nrobinso/Documents/unity/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e3b7f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3b7f.dir/build.make CMakeFiles/cmTC_e3b7f.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bccba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bccba.dir/build.make CMakeFiles/cmTC_bccba.dir/build
 gmake[1]: Entering directory '/home/nrobinso/Documents/unity/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Ubuntu clang version 12.0.1-19ubuntu3
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -33,7 +33,7 @@ Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/12
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
  (in-process)
- "/usr/lib/llvm-12/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-12/lib/clang/12.0.1 -dependency-file CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-12/lib/clang/12.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/nrobinso/Documents/unity/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+ "/usr/lib/llvm-12/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-12/lib/clang/12.0.1 -dependency-file CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-12/lib/clang/12.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/nrobinso/Documents/unity/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-pc-linux-gnu
 ignoring nonexistent directory "/include"
 #include "..." search starts here:
@@ -43,9 +43,9 @@ ignoring nonexistent directory "/include"
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-Linking C executable cmTC_e3b7f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3b7f.dir/link.txt --verbose=1
-/usr/bin/cc  -v CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o -o cmTC_e3b7f 
+Linking C executable cmTC_bccba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bccba.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o -o cmTC_bccba 
 Ubuntu clang version 12.0.1-19ubuntu3
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -59,7 +59,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/12
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e3b7f /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../.. -L/usr/lib/llvm-12/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_bccba /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../.. -L/usr/lib/llvm-12/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
 gmake[1]: Leaving directory '/home/nrobinso/Documents/unity/CMakeFiles/CMakeTmp'
 
 
@@ -83,10 +83,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/nrobinso/Documents/unity/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e3b7f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3b7f.dir/build.make CMakeFiles/cmTC_e3b7f.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bccba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bccba.dir/build.make CMakeFiles/cmTC_bccba.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/nrobinso/Documents/unity/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Ubuntu clang version 12.0.1-19ubuntu3]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -103,7 +103,7 @@ Parsed C implicit link information from above output:
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
   ignore line: [ (in-process)]
-  ignore line: [ "/usr/lib/llvm-12/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-12/lib/clang/12.0.1 -dependency-file CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-12/lib/clang/12.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/nrobinso/Documents/unity/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [ "/usr/lib/llvm-12/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-12/lib/clang/12.0.1 -dependency-file CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-12/lib/clang/12.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/nrobinso/Documents/unity/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-pc-linux-gnu]
   ignore line: [ignoring nonexistent directory "/include"]
   ignore line: [#include "..." search starts here:]
@@ -113,9 +113,9 @@ Parsed C implicit link information from above output:
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [Linking C executable cmTC_e3b7f]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3b7f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o -o cmTC_e3b7f ]
+  ignore line: [Linking C executable cmTC_bccba]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bccba.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o -o cmTC_bccba ]
   ignore line: [Ubuntu clang version 12.0.1-19ubuntu3]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -131,7 +131,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e3b7f /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../.. -L/usr/lib/llvm-12/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_bccba /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../.. -L/usr/lib/llvm-12/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -140,7 +140,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e3b7f] ==> ignore
+    arg [cmTC_bccba] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crt1.o]
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/12/crtbegin.o]
@@ -156,7 +156,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/llvm-12/bin/../lib] ==> dir [/usr/lib/llvm-12/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_e3b7f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_bccba.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
