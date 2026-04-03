@@ -25,7 +25,8 @@ run:
 	./test_add_function
 
 lib:
-	make -C ../unity/		
+	make -C ../unity/
+	cp ../unity/libunity.a ./libunity.a
 
 
 .PHONY: all clean fclean re run lib
