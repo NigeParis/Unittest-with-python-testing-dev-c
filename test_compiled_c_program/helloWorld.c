@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     printf("Hello World!");
 
     if (argc > 1) {
-        fprintf(stderr, "This is an error message test");
+        fprintf(stderr, "This is an error TOO MANY ARGS");
         return (1);
     }
     return (0);
