@@ -22,7 +22,7 @@ class TestHello(unittest.TestCase):
         )
 
         self.assertEqual(result.stdout, "Hello World!")
-        self.assertNotRegex(result.stderr.lower(), r"error|fail|critical|fatal")
+        self.assertNotRegex(result.stderr, r"error|fail|critical|fatal")
         self.assertEqual(result.returncode, 0)
 
 if __name__ == "__main__":

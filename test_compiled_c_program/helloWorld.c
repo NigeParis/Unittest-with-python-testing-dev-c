@@ -4,11 +4,12 @@
 int main(int argc, char *argv[]) {
 
     (void) argv[1];
-    
-    printf("Hello World!");
-    if (argc > 1) {
-        fprintf(stderr, "This is an error message test\n");
 
+    printf("Hello World!");
+
+    if (argc > 1) {
+        fprintf(stderr, "This is an error message test");
+        return (1);
     }
     return (0);
 }
