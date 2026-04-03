@@ -1,2 +1,4 @@
 hello
 ./test_compiled_c_program/hello
+./unity_unit_test_c/test_add_function
+./test_functions_in_c_lib/function_to_test
