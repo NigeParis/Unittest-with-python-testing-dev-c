@@ -1,0 +1,3 @@
+/usr/bin/ar qc libunity.a CMakeFiles/unity.dir/src/unity.c.o
+/usr/bin/ranlib libunity.a
+/usr/bin/cp libunity.a ../unity_unit_test_c/libunity.a
