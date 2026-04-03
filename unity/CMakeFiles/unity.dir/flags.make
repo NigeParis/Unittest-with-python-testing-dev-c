@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/nrobinso/Documents/unityTester/unity/src -I/home/nrobinso/Documents/unityTester/unity
+C_INCLUDES = -I/home/nrobinso/Documents/unitTest_testers/unity/src -I/home/nrobinso/Documents/unitTest_testers/unity
 
 C_FLAGS = -Wcast-align -Wcast-qual -Wconversion -Wexit-time-destructors -Wglobal-constructors -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wold-style-cast -Wshadow -Wweak-vtables -Werror -Wall -Wextra-semi-stmt -std=c11
 

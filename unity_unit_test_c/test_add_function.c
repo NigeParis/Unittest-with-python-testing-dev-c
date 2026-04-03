@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/03 13:19:24 by nrobinso          #+#    #+#             */
-/*   Updated: 2026/04/03 13:21:28 by nrobinso         ###   ########.fr       */
+/*   Updated: 2026/04/03 17:48:34 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void test_add(void) {
 }
 
 void test_add_again(void) {
-    TEST_ASSERT_EQUAL_INT(6, add(2, 3)); // Fail
+    TEST_ASSERT_EQUAL_INT(-5, add(2, 3)); // Fail
 }
 
 int main(void) {
